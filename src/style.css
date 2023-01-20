@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Teko:wght@300;400;500;600;700&display=swap');
+
+/* styling */
+body{
+ background: rgba(203, 243, 240, 0.5);
+  margin: 0;
+}
+
+nav {
+  background: #ff9f1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hamburger{
+  margin-right: 1em
+}
+
+#logo{
+  display-flex: flex;
+  align-content: center;
+  margin: auto;
+}
+
+#search{
+  margin-left: 1em
+}
+
+#beaches{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  
+}
+
+h1 {
+  /* Beaches On Kauai */
+  width: 318px;
+  height: 46px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+  color: #ff9f1c;
+  margin: auto;
+  text-align: center;
+}
+
+hr{
+  border-top: 3px solid #22909E;
+  border-top-width: 5px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 100%;
+}
+
+.beaches{
+ background-image: url("https://images.discerningassets.com/image/upload/c_fill,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/c_fill,w_1000,h_1000/v1448936879/ship_wrecks_beach_yma4bc.jpg"), url("https://cornforthimages.com/wp-content/uploads/2014/10/Lumahai-Beach-Sunrise-Aerial-2.jpg"), url("https://www.parrishkauai.com/wp-content/uploads/2014/10/Kauai-Botanical-Gardens-at-Allertons.jpg");
+  height: 300px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: fit;
+}
+
+.paragraph {
+  /* Brief overview */
+  width: 311px;
+  height: 55px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #028090;
+  margin: auto;
+}
+
+h2{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+text-align: left;
+color: #FFBF69;
+  padding: 1em;
+}
+
+h3{
+height: 20px;
+font-family: 'Jost';
+font-style: bold-700;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #028090;
+  padding: .25em;
+}
+
+.label{
+width: 203px;
+height: 115px;
+left: 52px;
+top: 772px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+color: #2EC4B6;
+
+
+}
+
+#beachlist{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+color: #FFBF69;
+  margin: auto;
+}
+
+#beachlist a {
+  display: block;
+}
+
+a{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+  color: #FFBF69;
+}
+
+#lines{
+width: 917px;
+height: 0px;
+border: 3px solid #22909E;
+margin: auto;
+}
+
+#line1{
+  width: 1950px;
+height: 0px;
+border: 3px solid #22909E;
+margin: auto;
+}
+
+#line2{
+  width: 1950px;
+height: 0px;
+border: 3px solid #22909E;
+margin: auto;
+}
+
+
+.descrip{
+width: 203px;
+height: 115px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+color: #FF9F1C;
+}
+
+.card {
+  width: 400px;
+  height: 350px;
+  background-color: #fffcf6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-bottom: 2em;
+  transition: background-color 400ms ease-out 100ms;
+}
+
+
+
+.card ul{
+  list-style: none;
+  padding-left: .5em;
+}
+
+.card li{
+  
+}
+
+#img {
+  max-width: 100%;
+  height: 160px;
+  border-radius: 11px 11px 0px 0px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+
+.directory {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 2.75em;
+  column-gap: 2em;  
+  transition: background-color 400ms ease-out 100ms;
+}
+.directory .card:hover{
+ background-color: white; 
+ 
+}
+/* .directory:hover{
+    background-color: white;
+}
+ */
+
+.southside{
+
+
+}
+
+
+
+
+
+#northshore{
+  
+}
+
